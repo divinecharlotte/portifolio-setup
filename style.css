@@ -66,7 +66,8 @@ nav .fa {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(./images/header-shapesmobile.png) center center / cover no-repeat rgb(255, 255, 255);
+  background: url(./images/header-shapesmobile.png) center center / cover
+    no-repeat rgb(255, 255, 255);
   background-repeat: no-repeat;
   height: 600px;
   width: 100%;
@@ -84,7 +85,6 @@ nav .fa {
 .headline-part p {
   line-height: 22px;
   width: 80%;
-
 }
 
 .connect a {
@@ -119,7 +119,5 @@ nav .fa {
     background: white url(./images/backg.png);
     background-repeat: no-repeat;
     background-size: cover;
-
   }
- 
 }
