@@ -10,7 +10,7 @@ html {
 
 body {
   width: 100%;
-  height: 618px;
+  /* height: 618px; */
   left: 100%;
   top: 0;
   font-size: 1.5rem;
@@ -47,7 +47,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 20px;
-  height: 40px;
+  height: 30px;
 }
 
 .header-part a {
@@ -66,34 +66,36 @@ nav .fa {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #fff url(./images/header-shapes\ mobile.png);
+  background: url(./images/header-shapesmobile.png) center center / cover no-repeat rgb(255, 255, 255);
   background-repeat: no-repeat;
   height: 600px;
   width: 100%;
   border-bottom-left-radius: 50px;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
+  margin: 0;
 }
 
 .headline-part h1 {
   line-height: 52px;
-  width: 90%;
+  width: 80%;
 }
 
 .headline-part p {
   line-height: 22px;
-  width: 90%;
+  width: 80%;
+
 }
 
 .connect a {
   font-weight: 500;
   color: #7f8cff;
-  width: 90%;
+  width: 80%;
   text-decoration: none;
 }
 
 .social-icons {
-  width: 90%;
+  width: 80%;
 }
 
 .social-icons ul {
@@ -110,4 +112,14 @@ nav .fa {
 
 .social-icons ul li img {
   width: 20px;
+}
+
+@media only screen and (min-width: 700px) {
+  .headline-part {
+    background: white url(./images/backg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+ 
 }

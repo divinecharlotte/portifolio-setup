@@ -16,6 +16,8 @@ To get a local copy up and running follow these simple example steps.
 ### Setup 
 clone the project or download the files to ypour local environment.
 
+git clone https://github.com/divinecharlotte/portifolio-setup.git
+
 ### Install
 you have run the installation commands.
 
