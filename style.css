@@ -10,7 +10,6 @@ html {
 
 body {
   width: 100%;
-  /* height: 618px; */
   left: 100%;
   top: 0;
   font-size: 1.5rem;
@@ -66,8 +65,7 @@ nav .fa {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(./images/header-shapesmobile.png) center center / cover
-    no-repeat rgb(255, 255, 255);
+  background: white url(./images/header-shapesmobile.png);
   background-repeat: no-repeat;
   height: 600px;
   width: 100%;
