@@ -121,6 +121,13 @@
     font-weight: 500;
   }
 
+  .arrow {
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+    justify-content: space-between;
+  }
+
   .social-icons1 ul li {
     list-style: none;
     height: auto;
@@ -245,13 +252,6 @@
   .election {
     width: 15px;
     height: 15px;
-  }
-
-  .arrow {
-    display: flex;
-    align-items: center;
-    padding-right: 60px;
-    justify-content: space-between;
   }
 
   .languages ul {
