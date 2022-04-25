@@ -355,6 +355,7 @@
     line-height: 17px;
     color: #172b4d;
     padding: 1px 11px;
+    border: none;
   }
 
   .forma textarea {
@@ -377,5 +378,18 @@
     font-weight: 500;
     color: #7f8cff;
     cursor: pointer;
+    right: 0;
+  }
+
+  .forma input[type='submit']:hover {
+    background: #396df2;
+  }
+
+  .forma input[type='submit']:active {
+    background: blue;
+  }
+
+  .forma input[type='submit']:disabled {
+    border: #396df2 1px solid;
   }
 }
