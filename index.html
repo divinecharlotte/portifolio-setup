@@ -313,7 +313,6 @@
             />
           </li>
 
-        
           <li class="arrow">
             <h3 class="lan">Skills</h3>
             <div>
@@ -331,28 +330,30 @@
         </ul>
       </div>
     </section>
-    <div class="foot">
+    <footer class="foot">
       <div class="foot-again">
         <h2 class="contact">Contact me</h2>
         <p>
-          If you have an application you are interested in <br />
-          developing, a feature that you need built or a project <br />
-          that needs coding. I’d love to help with it
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
         </p>
 
-        <form class="forma" action="/action_page.php">
+        <form class="forma" action="/action_page.php" method="post">
           <input
-            class="name1"
             type="text"
-            id="text"
+            placeholder="Enter your name"
             name="name"
-            value="Alexandra Loremipsum"
-          /><br />
+            maxlength="30"
+            required
+          />
+          <br />
           <input
             type="email"
             id="email"
             name="email"
             value="alexandra@gmail.com"
+            required
           /><br />
           <textarea
             rows="10"
@@ -364,6 +365,7 @@
           <input type="submit" value="Get It Touch" />
         </form>
       </div>
-    </div>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>

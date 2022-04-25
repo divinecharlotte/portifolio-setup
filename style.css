@@ -329,7 +329,8 @@
 
   .foot-again p {
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
+    margin: 0 24px 24px 24px;
     line-height: 28px;
     font-weight: 400;
     color: #ebebff;
