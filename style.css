@@ -470,6 +470,8 @@
     color: var(--textcolor);
   }
 
+  .informations li a:hover { text-decoration: underline; }
+
   .headline-part {
     width: 100%;
     background-size: 100% 100%;
@@ -597,6 +599,7 @@
 
   .about:hover {
     background-color: #4053fc;
+    transition: 2s;
   }
 
   .headinga {
