@@ -599,6 +599,7 @@
 
   .about:hover {
     background-color: #4053fc;
+    transition: 2s;
   }
 
   .headinga {
