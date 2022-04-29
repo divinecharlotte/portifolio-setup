@@ -469,6 +469,8 @@
     font-weight: 500;
     color: var(--textcolor);
   }
+  
+  .informations li a:hover { text-decoration: underline; }
 
   .headline-part {
     width: 100%;
