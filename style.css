@@ -274,7 +274,6 @@
     /* margin-left: -40px; */
   }
 
-  /************************************ desktop ***************************************/
 
   .informations {
     display: none;
@@ -297,6 +296,7 @@
     padding: 0 !important;
   }
 
+  /*******************************Contact form style starts here*********************************/
   .foot {
     width: 100%;
     height: 779px;
@@ -393,3 +393,5 @@
     border: #396df2 1px solid;
   }
 }
+
+  /*********************************Contacts Style Ends here***************************************/
