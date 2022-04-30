@@ -280,7 +280,6 @@
     width: 300px;
   }
 
-  /************************************ desktop ***************************************/
 
   .informations {
     display: none;
@@ -404,6 +403,7 @@
   }
 }
 
+  /************************************ desktop version starts from here***************************************/
 @media only screen and (min-width: 700px) {
   body {
     overflow-x: hidden;
