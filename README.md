@@ -1,8 +1,6 @@
 # portifolio-setup
 
-
 > this the html and css portifolio project.
-
 
 ## Built With
 
@@ -11,7 +9,8 @@
 
 To get a local copy up and running follow these simple example steps.
 
-
+## Live Demo
+[divinecharlotte.github.io/portifolio-setup]( https://divinecharlotte.github.io/portifolio-setup/)
 
 ### Setup 
 clone the project to ypour local environment.
