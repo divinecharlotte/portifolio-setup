@@ -2,7 +2,7 @@
 
 
 > this the html and css portifolio project.
-this is the [link]() to my portifolio project. 
+this is the [link](https://divinecharlotte.github.io/portifolio-setup/) to my portifolio project. 
 
 ## Built With
 
