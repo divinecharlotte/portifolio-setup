@@ -602,6 +602,7 @@
   .about:hover {
     background-color: #4053fc;
     transition: 2s;
+    color: white;
   }
 
   .headinga {
@@ -682,6 +683,7 @@
 
   .about2:hover {
     background-color: #4053fc;
+    color: white;
   }
 
   .languages {
