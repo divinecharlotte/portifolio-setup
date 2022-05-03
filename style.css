@@ -176,6 +176,8 @@
     display: flex;
     align-items: center;
     gap: 12px;
+    font-size: 18px;
+    font-weight: 500;
   }
 
   .transpalent {
@@ -600,6 +602,7 @@
   .about:hover {
     background-color: #4053fc;
     transition: 2s;
+    color: white;
   }
 
   .headinga {
@@ -680,6 +683,7 @@
 
   .about2:hover {
     background-color: #4053fc;
+    color: white;
   }
 
   .languages {
