@@ -66,18 +66,11 @@
   }
 
   .fa-times {
-    color: red;
+    color: white;
     float: right;
     font-size: 25px;
     margin: 5%  10%;
   }
-
-  /* #closeIcon2 {
-    color: black;
-    float: right;
-    font-size: 25px;
-    margin: 2% 10px 4%;
-  } */
 
   nav .fa {
     color: #6070ff;
@@ -300,7 +293,6 @@
   }
 
   .separator {
-    position: absolute;
     width: 300px;
   }
 
