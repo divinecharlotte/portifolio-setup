@@ -49,13 +49,35 @@
     font-family: "Poppins", sans-serif;
   }
 
-  .burger div {
+  .burger {
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    cursor: pointer;
+    padding-top: -20px;
+  }
+
+  .line {
     display: block;
     width: 20px;
     height: 2px;
-    margin: 5px;
-    background-color: #6070ff;
+    margin: 0 0 5px 0;
+    background-color: #4053fc;
   }
+
+  .fa-times {
+    color: red;
+    float: right;
+    font-size: 25px;
+    margin: 5%  10%;
+  }
+
+  /* #closeIcon2 {
+    color: black;
+    float: right;
+    font-size: 25px;
+    margin: 2% 10px 4%;
+  } */
 
   nav .fa {
     color: #6070ff;
@@ -290,6 +312,30 @@
 
   .pic {
     display: none;
+  }
+
+  .nav-links {
+    width: 100%;
+    height: 100vh;
+    background: #4053fc;
+    opacity: 0.97;
+    top: 0;
+    margin: 0;
+    position: fixed;
+    transition: 1s;
+    right: -100%;
+  }
+
+  .nav-links a {
+    font-size: 40px;
+    color: white;
+  }
+
+  .informations-mb {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px 0 0 20px;
   }
 
   .part11 {
@@ -602,6 +648,7 @@
   .about:hover {
     background-color: #4053fc;
     transition: 2s;
+    color: white;
   }
 
   .headinga {
@@ -673,8 +720,8 @@
   }
 
   .about2 {
-    width: 138px;
-    height: 58px;
+    width: 170px;
+    height: 48px;
     border-radius: 8px;
     border: 2px solid #4053fc;
     cursor: pointer;
@@ -682,6 +729,7 @@
 
   .about2:hover {
     background-color: #4053fc;
+    color: white;
   }
 
   .languages {

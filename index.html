@@ -26,18 +26,27 @@
 
   <body>
     <header class="header-part">
-      <div class="Charlotte navigation">
+      <div class="Charlotte ">
         <a href="#">Charlotte</a>
         <ul class="informations">
           <li class="info"><a href="#">Portfolio</a></li>
-          <li class="info"><a href="#">About</a></li>
-          <li class="info"><a href="#">Contact</a></li>
+          <li class="info"><a href="#about">About</a></li>
+          <li class="info"><a href="#contact">Contact</a></li>
         </ul>
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
+      </div>
+      <div class="burger" id="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <div><i class="fa fa-times" id="closeIcon"></i></div>
+        <ul class="informations-mb" id="navItems">
+          
+          <li class="infom"><a href="#">Portfolio</a></li>
+          <li class="infom"><a href="#about">About</a></li>
+          <li class="infom"><a href="#contact">Contact</a></li>
+        </ul>
       </div>
     </header>
     <section class="headline-part">
@@ -243,7 +252,7 @@
         </div>
       </div>
     </section>
-    <section class="about-me">
+    <section class="about-me" id="about">
       <div class="me">
         <div class="part1ml">
           <h2 class="abm">
@@ -344,7 +353,7 @@
         </ul>
       </div>
     </section>
-    <footer class="foot">
+    <footer class="foot" id="contact">
       <div class="foot-again">
         <h2 class="contact">Contact me</h2>
         <p>
@@ -382,6 +391,6 @@
         </form>
       </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
