@@ -646,7 +646,7 @@
     gap: 20px;
   }
 
-  .main-container:nth-child(2n+1) {
+  .main-container:nth-child(2n) {
     flex-direction: row-reverse;
   }
 
