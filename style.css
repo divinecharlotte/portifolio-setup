@@ -65,7 +65,7 @@
     background-color: #4053fc;
   }
 
-  .fa-times {
+  #closeIcon {
     color: white;
     float: right;
     font-size: 25px;
