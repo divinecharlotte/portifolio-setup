@@ -65,18 +65,12 @@
     background-color: #4053fc;
   }
 
-  #closeIcon {
+  .fa-times {
+
     color: white;
     float: right;
     font-size: 25px;
     margin: 5%  10%;
-  }
-
-  .fa-times {
-    color: red;
-    float: right;
-    font-size: 25px;
-    margin: 2% 10px 4%;
   }
 
   nav .fa {
