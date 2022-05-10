@@ -72,6 +72,13 @@
     margin: 5%  10%;
   }
 
+  #closeIcon2 {
+    color: black;
+    float: right;
+    font-size: 25px;
+    margin: 2% 10px 4%;
+  }
+
   nav .fa {
     color: #6070ff;
   }
@@ -326,11 +333,20 @@
   }
 
   .poup-link {
+    width: 130px;
     padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 38px;
     border-radius: 8px;
     border: 2px solid #4053fc;
     cursor: pointer;
+  }
+
+  .check a {
+    text-decoration: none;
+    color: #4053fc;
   }
 
   .pict {
@@ -339,6 +355,11 @@
 
   .informations {
     display: none;
+  }
+
+  .check {
+    display: flex;
+    gap: 20px;
   }
 
   .pic {
