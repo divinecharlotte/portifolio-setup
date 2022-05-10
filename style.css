@@ -72,8 +72,8 @@
     margin: 5%  10%;
   }
 
-  #closeIcon2 {
-    color: black;
+  .fa-times {
+    color: red;
     float: right;
     font-size: 25px;
     margin: 2% 10px 4%;
