@@ -2,6 +2,9 @@ const navLinks = document.getElementById('navLinks');
 const burger = document.getElementById('burger');
 const hideMenu = document.getElementById('closeIcon');
 const closeMenu = document.getElementById('navItems');
+const message = document.querySelector('#message');
+const button = document.querySelector('#submitbtn');
+const form = document.querySelector('.forma');
 
 burger.onclick = function burger() {
   navLinks.style.right = '0';
@@ -125,3 +128,12 @@ function ValidateEmail(inputText) {
   document.form.text.focus();
   return false;
 }
+
+button.addEventListener('click', () => {
+  message.innerText = 'Sajjad';
+});
+
+form.addEventListener('submit', function (e) {
+  e.preventDefault();
+
+});

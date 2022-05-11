@@ -502,6 +502,12 @@
   .forma input[type="submit"]:disabled {
     border: #396df2 1px solid;
   }
+
+  #message {
+    align-items: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media only screen and (min-width: 700px) {
