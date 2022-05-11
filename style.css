@@ -457,7 +457,6 @@
   }
 
   .forma input {
-    width: 247px;
     height: 44px;
     border-radius: 8px;
     font-weight: 400;
@@ -501,6 +500,16 @@
 
   .forma input[type="submit"]:disabled {
     border: #396df2 1px solid;
+  }
+
+  .tit {
+    visibility: hidden;
+  }
+
+  small {
+    color: black;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
   }
 }
 
@@ -646,7 +655,7 @@
     gap: 20px;
   }
 
-  .main-container:nth-child(2n) {
+  .main-container:nth-child(2n+1) {
     flex-direction: row-reverse;
   }
 

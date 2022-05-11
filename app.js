@@ -112,3 +112,15 @@ seeButtons.forEach((seeButton) => {
 closeIcon2.addEventListener('click', () => {
   mainContainer1.classList.remove('show');
 });
+
+const contactFormCont = document.getElementById('formcontact');
+contactFormCont.addEventListener('submit', (event) => {
+  const emailInput = contactFormCont.email.value;
+  if (emailInput.toLowerCase() !== emailInput) {
+    event.preventDefault();
+    const errorTag = contactFormCont.getElementsByTagName('small');
+    errorTag[0].innerHTML = 'Please insert email address in lowercase!';
+  } else {
+    contactFormCont.action = 'https://formspree.io/f/mqkngenv';
+  }
+});
