@@ -72,6 +72,13 @@
     margin: 5%  10%;
   }
 
+  #closeIcon2 {
+    color: black;
+    float: right;
+    font-size: 25px;
+    margin: 2% 10px 4%;
+  }
+
   nav .fa {
     color: #6070ff;
   }
@@ -175,6 +182,35 @@
     margin: auto;
     font-family: "Poppins", sans-serif;
     border-bottom-left-radius: 50px;
+  }
+
+  .main-container1 {
+    pointer-events: none;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: scroll;
+    max-height: 100%;
+    position: fixed;
+    border: 1px solid #efe1e6;
+    background: rgb(0, 96, 255, 0.3);
+    opacity: 0;
+  }
+
+  .main-container1.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .pop {
+    width: calc(80% - 30px);
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 0 8px 16px rgb(64, 83, 252, 0.24);
+    font-family: "Poppins", sans-serif;
   }
 
   .main-container {
@@ -296,10 +332,34 @@
     width: 300px;
   }
 
-  /************************************ desktop ***************************************/
+  .popup-link {
+    width: 150px;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    border-radius: 8px;
+    border: 2px solid #4053fc;
+    cursor: pointer;
+  }
+
+  .check a {
+    text-decoration: none;
+    color: #4053fc;
+  }
+
+  .pict {
+    display: none;
+  }
 
   .informations {
     display: none;
+  }
+
+  .check {
+    display: flex;
+    gap: 20px;
   }
 
   .pic {
@@ -449,6 +509,11 @@
     overflow-x: hidden;
   }
 
+  .pict {
+    display: block;
+    width: 1048px;
+  }
+
   .burger div {
     display: none;
   }
@@ -473,7 +538,6 @@
 
   .pic {
     display: block;
-    width: 100%;
     border-radius: 8px;
   }
 
@@ -577,10 +641,18 @@
     border-radius: 24px;
     background-color: white;
     margin-bottom: 10%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     padding: 24px;
     gap: 20px;
+  }
+
+  .main-container:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
+
+  .part222 {
+    display: flex;
+    flex-direction: row;
   }
 
   .part2 {
@@ -604,6 +676,7 @@
     display: flex;
     gap: 12px;
     align-items: center;
+    margin-bottom: 20px;
   }
 
   .transpalent {
