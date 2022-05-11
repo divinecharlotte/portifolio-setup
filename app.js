@@ -112,3 +112,16 @@ seeButtons.forEach((seeButton) => {
 closeIcon2.addEventListener('click', () => {
   mainContainer1.classList.remove('show');
 });
+
+function ValidateEmail(inputText) {
+  const mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  if (inputText.value.match(mailformat)) {
+    alert('Valid email address!');
+    document.form1.text1.focus();
+    return true;
+  }
+
+  alert('You have entered an invalid email address!');
+  document.form.text.focus();
+  return false;
+}
