@@ -113,8 +113,6 @@ closeIcon2.addEventListener('click', () => {
   mainContainer1.classList.remove('show');
 });
 
-
-
 const contactFormCont = document.getElementById('formcontact');
 contactFormCont.addEventListener('submit', (event) => {
   const emailInput = contactFormCont.email.value;
