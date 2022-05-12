@@ -2,7 +2,7 @@ const navLinks = document.getElementById('navLinks');
 const burger = document.getElementById('burger');
 const hideMenu = document.getElementById('closeIcon');
 const closeMenu = document.getElementById('navItems');
-
+const contactFormCont = document.getElementById('formcontact');
 burger.onclick = function burger() {
   navLinks.style.right = '0';
 };
@@ -113,14 +113,48 @@ closeIcon2.addEventListener('click', () => {
   mainContainer1.classList.remove('show');
 });
 
-const contactFormCont = document.getElementById('formcontact');
+// FORM VALIDATION
 contactFormCont.addEventListener('submit', (event) => {
   const emailInput = contactFormCont.email.value;
   if (emailInput.toLowerCase() !== emailInput) {
     event.preventDefault();
     const errorTag = contactFormCont.getElementsByTagName('small');
-    errorTag[0].innerHTML = 'Please insert email address in lowercase!';
+    errorTag[0].innerHTML = 'Please insert email in lowercase!';
   } else {
     contactFormCont.action = 'https://formspree.io/f/mqkngenv';
   }
 });
+
+// Local Storage
+const inputFields = document.querySelectorAll('input');
+inputFields.forEach((input) => {
+  input.addEventListener('change', (event) => {
+    let formData = JSON.parse(localStorage.getItem('formData'));
+    if (!formData) {
+      formData = { name: '', email: '', message: '' };
+    }
+    formData[event.target.name] = event.target.value;
+    localStorage.setItem('formData', JSON.stringify(formData));
+  });
+});
+
+const textArea = document.getElementById('user-message');
+textArea.addEventListener('change', (event) => {
+  let formData = JSON.parse(localStorage.getItem('formData'));
+  if (!formData) {
+    formData = { name: '', email: '', message: '' };
+  }
+  formData.message = event.target.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+
+function retrieveFormData() {
+  const formData = JSON.parse(localStorage.getItem('formData'));
+  if (formData) {
+    document.getElementById('txtEmail').value = formData.email;
+    document.getElementById('user').value = formData.name;
+    document.getElementById('user-message').value = formData.message;
+  }
+}
+
+retrieveFormData();
