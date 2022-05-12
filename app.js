@@ -125,7 +125,6 @@ contactFormCont.addEventListener('submit', (event) => {
   }
 });
 
-
 // Local Storage
 const inputFields = document.querySelectorAll('input');
 inputFields.forEach((input) => {
