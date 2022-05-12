@@ -333,7 +333,7 @@
   }
 
   .popup-link {
-    width: 150px;
+    width: 120px;
     padding: auto;
     display: flex;
     align-items: center;
@@ -458,6 +458,7 @@
 
   .forma input {
     height: 44px;
+    width: 280px;
     border-radius: 8px;
     font-weight: 400;
     font-size: 17px;
@@ -503,11 +504,11 @@
   }
 
   .tit {
-    visibility: hidden;
+    display: none;
   }
 
   small {
-    color: black;
+    color: yellow;
     font-size: 18px;
     font-family: "Poppins", sans-serif;
   }
